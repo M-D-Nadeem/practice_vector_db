@@ -69,9 +69,9 @@ async function practice({ req, res }) {
   
     // (async () => {
       // 1. Check if Pinecone index exists and create if necessary 
-        // await createPineconeIndex(req,res,pineconeClient, indexName, vectorDimension);
+        await createPineconeIndex(req,res,pineconeClient, indexName, vectorDimension);
       // 2. Update Pinecone vector store with document embeddings
-        // await addEmbidding(req,res,pineconeClient, indexName, directoryDocs);
+        await addEmbidding(req,res,pineconeClient, indexName, directoryDocs);
       // 13. Query Pinecone vector store and GPT model for an answer
         await queryPineconeVectorStore(req,res,pineconeClient, indexName, question);
     // })()

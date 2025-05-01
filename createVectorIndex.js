@@ -16,7 +16,6 @@ const createPineconeIndex = async (req,res,
   console.log(`Checking "${indexName}"...`);
   // 2. Get list of existing indexes from the dadabase
   const existingIndexes = await pineconeClient.listIndexes();
-  console.log(existingIndexes);
   
   const indexExists = existingIndexes.indexes.some(index => index.name === indexName);
   // 3. If index doesn't exist, create it

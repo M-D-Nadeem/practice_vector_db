@@ -113,7 +113,7 @@ const response = await llm.invoke([{ role: "user", content: prompt }]);
     
     const mcqRaw = response.content.trim();
     const cleanJson = mcqRaw.replace(/```json|```/g, "").trim();
-    console.log("MCQ Generated:", cleanJson);
+    // console.log("MCQ Generated:", cleanJson);
     res.status(200).json({ mcqs: JSON.parse(cleanJson) });
       
 }
