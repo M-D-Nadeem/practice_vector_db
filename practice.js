@@ -62,7 +62,7 @@ async function practice({ req, res }) {
     const { Pinecone } = require('@pinecone-database/pinecone');
     const indexName = "practice-index";
     const vectorDimension = 384;
-    const question="What is DOM in javascript and give some examples"
+    const question="Javascript"
     const pineconeClient  = new Pinecone({
     apiKey: 'pcsk_2Y5v31_LcFUfTabTkEZ3gQaxjhEBmiVVWwwNmXwDEJ5TZ2FWK2haqLfXY9AW9XQbCdTKSA'
   });
