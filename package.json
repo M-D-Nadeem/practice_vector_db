@@ -1,0 +1,32 @@
+{
+  "name": "practiceembidings",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@huggingface/transformers": "^3.5.0",
+    "@langchain/community": "^0.3.42",
+    "@langchain/core": "^0.3.50",
+    "@langchain/groq": "^0.2.2",
+    "@langchain/textsplitters": "^0.1.0",
+    "@pinecone-database/pinecone": "^5.1.2",
+    "axios": "^1.9.0",
+    "d3-dsv": "^2.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "langchain": "^0.3.24",
+    "mammoth": "^1.9.0",
+    "node": "^22.15.0",
+    "nodemon": "^3.1.10",
+    "officeparser": "^4.2.0",
+    "pdf-parse": "^1.1.1",
+    "word-extractor": "^1.0.4"
+  }
+}
