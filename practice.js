@@ -13,7 +13,7 @@ const { createPineconeIndex } = require("./createVectorIndex.js");
 const { queryPineconeVectorStore } = require("./queryPineconeVectorStore.js");
 
 
-async function practice({ req, res }) {
+const practice=async ( req, res )=> {
     //Step 1:
   
     //Used to read the Diarectory

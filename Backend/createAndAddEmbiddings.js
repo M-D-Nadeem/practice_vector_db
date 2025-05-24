@@ -61,7 +61,7 @@
     
     //Define the model
     const model = new HuggingFaceTransformersEmbeddings({
-      model: "Xenova/all-MiniLM-L6-v2",
+      model: "Xenova/all-MiniLM-L6-v2", 
     });
   
     //Embed documents:  replace the charectes \n{new line} \t\d{means t1,t2..} \nØ with " "
